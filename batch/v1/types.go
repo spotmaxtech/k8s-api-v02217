@@ -17,7 +17,7 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/api/core/v1"
+	"github.com/spotmaxtech/k8s-api-v02217/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 )
