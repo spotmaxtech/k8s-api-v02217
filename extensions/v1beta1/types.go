@@ -19,8 +19,8 @@ package v1beta1
 import (
 	appsv1beta1 "github.com/spotmaxtech/k8s-api-v02217/apps/v1beta1"
 	v1 "github.com/spotmaxtech/k8s-api-v02217/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/intstr"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/intstr"
 )
 
 // describes the attributes of a scale subresource

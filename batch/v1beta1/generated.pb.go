@@ -26,7 +26,7 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 	v11 "github.com/spotmaxtech/k8s-api-v02217/core/v1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
 
 	math "math"
 	math_bits "math/bits"

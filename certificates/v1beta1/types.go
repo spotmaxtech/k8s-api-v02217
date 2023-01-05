@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	v1 "github.com/spotmaxtech/k8s-api-v02217/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
 )
 
 // +genclient
@@ -232,7 +232,8 @@ type CertificateSigningRequestList struct {
 
 // KeyUsages specifies valid usage contexts for keys.
 // See: https://tools.ietf.org/html/rfc5280#section-4.2.1.3
-//      https://tools.ietf.org/html/rfc5280#section-4.2.1.12
+//
+//	https://tools.ietf.org/html/rfc5280#section-4.2.1.12
 type KeyUsage string
 
 const (

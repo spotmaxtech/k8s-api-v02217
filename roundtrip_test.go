@@ -68,11 +68,11 @@ import (
 	storagev1beta1 "github.com/spotmaxtech/k8s-api-v02217/storage/v1beta1"
 
 	"github.com/stretchr/testify/require"
-	"k8s.io/apimachinery/pkg/api/apitesting/fuzzer"
-	"k8s.io/apimachinery/pkg/api/apitesting/roundtrip"
-	genericfuzzer "k8s.io/apimachinery/pkg/apis/meta/fuzzer"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/api/apitesting/fuzzer"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/api/apitesting/roundtrip"
+	genericfuzzer "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/fuzzer"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer"
 )
 
 var groups = []runtime.SchemeBuilder{
